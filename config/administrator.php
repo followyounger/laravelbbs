@@ -123,7 +123,7 @@ return array(
      *  用作后台主页的菜单条目
      * @type string
      */
-    'home_page' => 'users',
+    'home_page' => 'topics',
 
     /*
      * The route to which the user will be taken when they click the "back to site" button
@@ -137,7 +137,7 @@ return array(
      * 当permission权限检测不通过是，会重定向用户大此处
      * @type string
      */
-    'login_path' => 'login',
+    'login_path' => 'permission-denied',
 
     /*
      * The logout path is the path where Administrator will send the user when they click the logout link
